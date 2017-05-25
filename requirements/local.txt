@@ -1,0 +1,6 @@
+-r base.txt
+
+django-extensions==1.5.9
+pylint==1.4.1
+pep8==1.5.7
+coverage==4.1
