@@ -34,7 +34,7 @@ Install virtualenvwrapper
 
     $ pip3 install virtualenvwrapper
 
-You could add these to your ~/.bashrc in order to use virutualenvwrapper easier
+You could add commands listed below to your ~/.bashrc in order to use virutualenvwrapper easier
 
 .. code-block:: bash
 
@@ -62,7 +62,7 @@ Run migrations.
 
     $ python manage.py migrate
 
-Running in test mode.
+Run application in test mode.
 
 .. code-block:: bash
 
