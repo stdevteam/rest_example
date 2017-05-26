@@ -5,7 +5,6 @@ from rest_framework import serializers as rest_serializers
 from rest_framework.validators import UniqueValidator
 
 # Django Modules.
-from django.contrib import admin
 
 # Project Modules.
 from core import validators

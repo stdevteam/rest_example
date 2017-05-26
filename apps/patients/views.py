@@ -1,16 +1,19 @@
 # Native Python Modules.
 
 # External Modules.
-from rest_framework import viewsets, mixins
 
 # Django Modules.
 
 # Project Modules.
 from .models import Patient
 from .serializers import PatientSerializer
+from core.mixins import AllMethodsViewSet
 
 
-class PatientViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.RetrieveModelMixin, mixins.CreateModelMixin,
-                  mixins.UpdateModelMixin, mixins.DestroyModelMixin):
+class PatientViewSet(AllMethodsViewSet):
+    """
+    CRUD endpoints for Patients.
+    """
+    model_name = "Patient"
     queryset = Patient.objects.all()
     serializer_class = PatientSerializer

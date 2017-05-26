@@ -7,5 +7,6 @@ from django.apps import AppConfig
 
 # Project Modules.
 
+
 class PatientsConfig(AppConfig):
     name = 'patients'
