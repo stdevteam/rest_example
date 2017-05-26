@@ -68,7 +68,7 @@ Run application in test mode.
 
     $ python manage.py runserver
 
-Swagger generated REST testing interface URL.
+Swagger-generated documentation URL.
 * http://127.0.0.1:8000/docs/
 
 Django-rest-framework interface URL.
