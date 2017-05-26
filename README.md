@@ -6,6 +6,14 @@ REST - example application based on Django and django-rest-framework
 Development setup
 -----------------
 
+Requirements:
+
+- <a href="https://www.python.org/">python3.4+</a>
+- <a href="https://www.djangoproject.com/">Django1.11</a>
+- <a href="https://www.mysql.com/">mysql-server</a>
+- <a href="http://www.django-rest-framework.org/">djangorestframework</a>
+- <a href="https://github.com/marcgibbons/django-rest-swagger">django-rest-swagger</a>
+
 Install required system packages:
 
 .. code-block:: bash
@@ -26,7 +34,7 @@ Install virtualenvwrapper
 
     $ pip3 install virtualenvwrapper
 
-Add these to your bashrc virutualenvwrapper work
+You could add these to your ~/.bashrc in order to use virutualenvwrapper easier
 
 .. code-block:: bash
 
@@ -54,7 +62,19 @@ Run migrations.
 
     $ python manage.py migrate
 
-Run tests.
+Running in test mode.
+
+.. code-block:: bash
+
+    $ python manage.py runserver
+
+Swagger generated REST testing interface URL.
+* http://127.0.0.1:8000/docs/
+
+Django-rest-framework interface URL.
+* http://127.0.0.1:8000
+
+Running tests.
 
 .. code-block:: bash
 
