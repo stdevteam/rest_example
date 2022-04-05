@@ -2,6 +2,7 @@ REST - example application based on Django and django-rest-framework
 ====================================================================
 
 
+
 -----------------
 Development setup
 -----------------
